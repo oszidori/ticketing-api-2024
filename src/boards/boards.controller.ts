@@ -8,8 +8,6 @@ import {
   Delete,
 } from '@nestjs/common';
 import { BoardsService } from './boards.service';
-import { CreateBoardDto } from './dto/create-board.dto';
-import { UpdateBoardDto } from './dto/update-board.dto';
 import { Prisma } from '@prisma/client';
 
 @Controller('boards')
